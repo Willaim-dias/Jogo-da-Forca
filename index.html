@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <!--style-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--Titulo-->
+    <h1 id="title-top">Jogo da forca</h1>
+    <!--Container Geral-->
+    <div id="conteiner"> 
+
+        <!--mostra as letras digitadas-->
+        <div id="divLetras">
+            <h2>Letras Digitadas:</h2>
+            <p id="letrasErro"></p>
+        </div>
+
+        <!--Mostra a letra sorteada-->
+        <div id="divSaida">
+            <h2 id="tentativa">Forca: </h2>
+            <p id="saidaP"></p>
+        </div>
+
+        <!--Campo de entrada para um jogada-->
+        <div id="divJogadas">
+            <input class="inputT" type="text" id="inpLetra" placeholder="Digite uma Letra">
+            <button id="btnJogar">Jogar</button>
+            <input class="inputT" type="text" id="inputAdivinhar" placeholder="Tentar a sorte">
+            <button id="btnAdivinhar">Tentar Adivinhar</button>
+        </div>
+        
+        <!--Recarregue a pagina-->
+        <div id="novoJogo">
+             <a href="index.html">Tentar novamente</a>
+        </div>
+    </div>
+    <!--Script-->
+    <script src="js/script.js" defer></script>
+</body>
+</html>
